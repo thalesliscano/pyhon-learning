@@ -1,0 +1,23 @@
+Exercício de caso real com um pouco mais de complexidade
+
+Crie um mini modelo acadêmico:
+Classes--------------------------------------
+
+Aluno
+Disciplina
+Turma
+Boletim
+
+Regras---------------------------------
+
+Uma Turma tem uma disciplina
+Uma Turma tem vários alunos
+Cada aluno da turma pode ter um Boletim
+O Boletim guarda lançamentos de notas
+
+Métodos esperados---------------------------------------------
+
+Turma.matricular_aluno(aluno)
+Turma.criar_boletim(aluno)
+Boletim.adicionar_lancamento(descricao, nota, peso)
+Boletim.media_final()
